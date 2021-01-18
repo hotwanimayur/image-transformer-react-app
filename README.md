@@ -1,13 +1,13 @@
 # Image Transformer using React and Node.js
   ## Demo
    ### Main Home Page
-   ![Mainpage](https://user-images.githubusercontent.com/76835786/104129767-ac3e6400-5393-11eb-9137-0294204748e0.PNG)
+   ![Mainpage](https://user-images.githubusercontent.com/76835786/104953607-03ad8700-59c7-11eb-9aaf-3c1c8c3a9f7d.PNG)
    
    ### Resize Image Page
-   ![Resize_Image](https://user-images.githubusercontent.com/76835786/104129770-b06a8180-5393-11eb-851d-f867e141b678.PNG)
+   ![Resize_Image](https://user-images.githubusercontent.com/76835786/104953567-f1334d80-59c6-11eb-9ce6-711bd09a90ed.PNG)
 
    ### Rotate Image Page
-   ![rotate_image](https://user-images.githubusercontent.com/76835786/104129760-9d57b180-5393-11eb-97bc-e070406591e1.PNG)
+   ![rotate_image](https://user-images.githubusercontent.com/76835786/104953569-f1cbe400-59c6-11eb-9c21-20ce7defbefb.PNG)
 
  ## Dependencies
  Frontend is written using React.js and Next.js.

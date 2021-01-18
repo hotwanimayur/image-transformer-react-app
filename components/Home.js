@@ -4,19 +4,19 @@ import Link from 'next/link'
 export default function Home() {
     return (
         <div className="container">
-            <Link href="/"><button id ="backBtn" className="btn btn-outline-primary btn-sm" active role="button" aria-pressed="true"><h3><a>Home &larr;</a></h3></button></Link>
+            <Link href="/"><button id ="backBtn" className="btn btn-outline-link btn-sm"><h3><a>Back to Home &larr;</a></h3></button></Link>
 
 
             <style jsx>{`
         .container {
-          padding: 0 0.5rem;
+          padding: 6px 0.5rem;
           display: flex;
           flex-direction: column;
           align-items: flex-center;
         }
 
         h3 {
-            font-size: 1.1rem;
+            font-size: 1.2rem;
         }
 
         a{
@@ -30,7 +30,7 @@ export default function Home() {
         } 
 
         .btn:hover{
-          background-color: white;
+          background-color: none;
         }
 
       `}</style>

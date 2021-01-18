@@ -28,14 +28,21 @@ export default class ApplyGrayscaleFilter extends Component {
         }
         let response = await applyGrayScaleFilter(grayscaleParams);
         let base64Flag = 'data:image/jpeg;base64, ';
-        response.data.error ? this.setState({showImage : false, responseData: response.data.error}) : this.setState({ img_src: base64Flag + response.data, showImage: true });
+        response.data.error ? this.setState({ showImage: false, responseData: response.data.error }) : this.setState({ img_src: base64Flag + response.data, showImage: true });
     }
 
     render() {
         return (
             <div className="container">
                 <br /><br />
-                <legend><left><h1><b>Apply GrayScale Filter</b></h1></left></legend><br />
+                <div className="form-group row">
+                    <div className="form-group col-md-5">
+                        <legend><left><h1><b>Apply GrayScale Filter</b></h1></left></legend><br />
+                    </div>
+                    <div className="form-group col-md-3">
+                        <Home />
+                    </div>
+                </div>
                 <form onSubmit={this.handleGrayScaleFilter}>
                     <div className="form-group row">
                         <div className="form-group col-md-7">
@@ -55,11 +62,8 @@ export default class ApplyGrayscaleFilter extends Component {
                                 Apply Grayscale
                             </button>
                         </div>
-                        <div className="form-group col-md-2">
-                            <Home />
-                        </div>
                     </div>
-                    {this.state.showImage ? <center><img src={this.state.img_src}/></center> : <center><p><b> {this.state.responseData}</b></p></center>}
+                    {this.state.showImage ? <center><img src={this.state.img_src} /></center> : <center><p><b> {this.state.responseData}</b></p></center>}
                 </form>
                 <style jsx global>{`
         html,

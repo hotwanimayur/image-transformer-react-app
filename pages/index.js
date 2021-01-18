@@ -122,7 +122,7 @@ export default function App() {
         }
 
         .card {
-          background-color: white;
+          background-color: blanchedalmond;
           margin: 1rem;
           flex-basis: 45%;
           padding: 1.5rem;

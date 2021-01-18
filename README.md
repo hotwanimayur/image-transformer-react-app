@@ -1,4 +1,4 @@
-# Image Transformer using React and Node.js
+# Image Transformer SPA - using React and Node.js
   ## Demo
    ### Main Home Page
    ![Mainpage](https://user-images.githubusercontent.com/76835786/104953607-03ad8700-59c7-11eb-9aaf-3c1c8c3a9f7d.PNG)
